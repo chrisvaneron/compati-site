@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — Compati</title>
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --forest: #2D6A4F;
+    --gold: #D4A843;
+    --cream: #F5F0E8;
+    --ink: #1A1A1A;
+  }
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--cream);
+    color: var(--ink);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  .header {
+    text-align: center;
+    padding: 2.5rem 1.5rem 1rem;
+  }
+  .header a { text-decoration: none; }
+  .wordmark {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.75rem;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, var(--forest) 0%, var(--gold) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1.5rem 1.5rem 3rem;
+  }
+  h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .lede {
+    font-size: 1.05rem;
+    color: rgba(26, 26, 26, 0.65);
+    margin-bottom: 2rem;
+  }
+  h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.25rem;
+    margin-top: 2.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--forest);
+  }
+  p, li { font-size: 0.95rem; margin-bottom: 0.75rem; }
+  ul { padding-left: 1.25rem; margin-bottom: 0.75rem; }
+  a { color: var(--forest); font-weight: 500; }
+  .contact-card {
+    background: #fff;
+    border: 1px solid rgba(45, 106, 79, 0.12);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin: 1.5rem 0 2rem;
+    box-shadow: 0 2px 12px rgba(45, 106, 79, 0.05);
+  }
+  .contact-card p { margin-bottom: 0.25rem; }
+  .contact-card a { font-size: 1.05rem; }
+  footer {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-top: 1px solid rgba(26, 26, 26, 0.08);
+  }
+  footer a {
+    color: var(--forest);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="/"><span class="wordmark">Compati</span></a>
+</div>
+
+<div class="content">
+<h1>Support</h1>
+<p class="lede">We're happy to help. Most questions are answered below &mdash; if not, just email us.</p>
+
+<div class="contact-card">
+  <p><strong>Email</strong></p>
+  <p><a href="mailto:chrisvaneron@gmail.com">chrisvaneron@gmail.com</a></p>
+  <p style="margin-top: 0.5rem; font-size: 0.9rem; color: rgba(26, 26, 26, 0.55);">We typically reply within 1&ndash;2 business days.</p>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>How do I pair with someone?</h3>
+<p>Open Compati, tap <em>Invite</em>, and share your invite code with the person you want to pair with. They enter the code on their device and your libraries will start syncing. Only one pairing is active at a time.</p>
+
+<h3>Why does Compati need Apple Music access?</h3>
+<p>Compati reads your Apple Music library, playlists, and listening history to compute compatibility signals between you and the person you pair with. Nothing leaves your pairing &mdash; we don't sell or share library data. See our <a href="privacy">Privacy Policy</a> for details.</p>
+
+<h3>Can I change who I'm paired with?</h3>
+<p>Yes. Open the app, go to settings, and tap <em>Unpair</em>. Once unpaired, you can send or accept a new invite. Unpairing deletes the shared compatibility data between the two of you.</p>
+
+<h3>Some of my cards are empty &mdash; why?</h3>
+<p>Compati only shows cards when there's enough data on both sides. For example, "Peak Year" needs a few years of listening history, and "Hidden Gems" needs some deep-cut overlap. Cards will appear as your data fills in.</p>
+
+<h3>How do I delete my account?</h3>
+<p>Email us at <a href="mailto:chrisvaneron@gmail.com">chrisvaneron@gmail.com</a> from the address associated with your account and we'll delete your account and all associated data.</p>
+
+<h3>I'm not getting notifications</h3>
+<p>Open iOS Settings &rarr; Compati &rarr; Notifications and make sure they're enabled. If they still don't arrive, send us a note with your device model and iOS version.</p>
+
+<h3>Something's broken &mdash; how do I report a bug?</h3>
+<p>Email us at <a href="mailto:chrisvaneron@gmail.com">chrisvaneron@gmail.com</a> with a screenshot and a brief description of what happened. If you're on the TestFlight beta, you can also shake your device and tap <em>Send Beta Feedback</em>.</p>
+
+</div>
+
+<footer>
+  <a href="/">&larr; Back to Compati</a>
+</footer>
+
+</body>
+</html>
